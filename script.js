@@ -15,5 +15,6 @@ const startAudio = () => {
     document.removeEventListener('click', startAudio);
     document.removeEventListener('keydown', startAudio);
 };
-    document.addEventListener('click', startAudio);
-    document.addEventListener('keydown', startAudio);
+
+document.addEventListener('click', startAudio);
+document.addEventListener('keydown', startAudio);
