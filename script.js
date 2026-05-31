@@ -1,3 +1,4 @@
+//this is all for the song to play, cuz browsers need interaction before playing stuff
 const banner = document.createElement('div');
 banner.setAttribute('style', `
     position: fixed; bottom: 0; left: 0; right: 0;
