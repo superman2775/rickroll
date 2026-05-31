@@ -2,9 +2,7 @@
 setInterval(() => {
     const img = document.createElement('img');
     img.src = 'https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif';
-    img.style.position = 'absolute';
-    img.style.left = Math.random() * (window.innerWidth - 200) + 'px';
-    img.style.top = Math.random() * (window.innerHeight - 150) + 'px';
+    img.setAttribute('style', `position: fixed; width: 200px; left: ${Math.random() * (window.innerWidth - 200)}px; top: ${Math.random() * (window.innerHeight - 150)}px; z-index: 9999;`);
     document.body.appendChild(img);
 }, 250);
 
