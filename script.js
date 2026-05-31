@@ -1,4 +1,3 @@
-// Cookie banner
 const banner = document.createElement('div');
 banner.setAttribute('style', `
     position: fixed; bottom: 0; left: 0; right: 0;
@@ -23,7 +22,6 @@ banner.innerHTML = `
 
 document.body.appendChild(banner);
 
-// Terms popup
 document.getElementById('terms-link').addEventListener('click', (e) => {
     e.preventDefault();
     const popup = document.createElement('div');
